@@ -407,4 +407,5 @@ Mode mode =
     ._preprocess_input  = NULL,
     .private_data       = NULL,
     .free               = NULL,
+    .type               = MODE_TYPE_SWITCHER,
 };
