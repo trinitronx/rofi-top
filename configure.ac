@@ -1,6 +1,6 @@
 AC_INIT([rofi-top], [1.3.1], [https://github.com/DaveDavenport/rofi/],[],[https://forum.qtools.org/])
 
-AC_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 
 
 AC_CONFIG_MACRO_DIRS([m4])
@@ -15,11 +15,6 @@ dnl ---------------------------------------------------------------------
 dnl  Check for compiler
 dnl ---------------------------------------------------------------------
 AC_PROG_CC([clang gcc cc])
-
-dnl ---------------------------------------------------------------------
-dnl  C99 standard
-dnl ---------------------------------------------------------------------
-AC_PROG_CC_C99
 
 dnl ---------------------------------------------------------------------
 dnl C to Object rules.
